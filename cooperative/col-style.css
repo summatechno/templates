@@ -1,0 +1,42 @@
+.col-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .col-2 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+.col-3 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+@media screen and (max-width: 800px) {
+  .col-3 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+.col-4 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+@media screen and (max-width: 800px) {
+  .col-4 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+.col-2-x {
+  display: grid;
+  grid-template-columns: 45% 50%;
+}
+
+.col-3-x {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}/*# sourceMappingURL=col-style.css.map */
