@@ -180,7 +180,7 @@ button {
   width: 90%;
   height: -moz-max-content;
   height: max-content;
-  top: 15dvh;
+  top: 14dvh;
   transition: 0.5s;
 }
 .slider .text h1 {
