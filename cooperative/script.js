@@ -30,4 +30,10 @@ $(function () {
     })
 
     $("#year").html(new Date().getFullYear());
+
+    $(window).ready(function () {
+      $("body .body .slider .text h1").css({left:"0%"});
+      $("body .body .slider .text p").css({right:"0%"});
+      $("body .body .slider .text h2").css({transform:"scale(1)"});
+    })
 });

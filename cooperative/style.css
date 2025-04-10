@@ -167,8 +167,8 @@ button {
   }
 }
 .slider {
-  background-image: url("images/middle1.jpg");
-  background-color: #00006f;
+  background-image: url("images/slider2.png");
+  background-color: hsla(240, 98%, 22%, 0.5);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,12 +182,24 @@ button {
   height: max-content;
   top: 14dvh;
   transition: 0.5s;
+  overflow: hidden;
 }
 .slider .text h1 {
   font-size: 11vw;
+  position: relative;
+  left: -150%;
+  transition: 0.5s;
+}
+.slider .text h2 {
+  position: relative;
+  transform: scale(1.5);
+  transition: 0.5s;
 }
 .slider .text p {
   font-size: 2vw;
+  position: relative;
+  right: -130%;
+  transition: 0.5s;
 }
 @media screen and (max-width: 800px) {
   .slider .text p {
